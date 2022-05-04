@@ -78,7 +78,7 @@ function App() {
 									<div
 										className="is-dotted--top u-padding--left"
 										style={{ marginTop: "auto" }}>
-										<p className="p-muted-heading">Article</p>
+										<p className="p-muted-heading">{item.type}</p>
 									</div>
 								</div>
 							</div>
