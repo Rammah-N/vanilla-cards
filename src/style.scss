@@ -1,0 +1,15 @@
+@import 'vanilla-framework/scss/vanilla';
+@include vanilla;
+.p-card__header {
+	margin-bottom: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.p-card--post {
+	border-top: 3px solid #722d55;
+}
+.is-dotted--bottom {
+	border-bottom: 1px dotted $color-mid-light !important;
+}
+.is-dotted--top {
+	border-top: 1px dotted $color-mid-light !important;
+}
